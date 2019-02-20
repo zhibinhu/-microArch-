@@ -1,0 +1,174 @@
+[
+  {
+    "path": "/firstLevel",
+    "icon": "ios-paper",
+    "title": "系统设置",
+    "name": "firstLevel",
+    "component": "Main",
+    "children": [
+      {
+        "path": "sys/userManagement",
+        "icon": "ios-paper-outline",
+        "title": "用户管理",
+        "name": "sys/userManagement",
+        "component": "sys/userManagement"
+      },
+      {
+        "path": "sys/organizationList",
+        "icon": "ios-paper-outline",
+        "title": "组织管理",
+        "name": "sys/organizationList",
+        "component": "sys/organizationList"
+      },
+      {
+        "path": "sys/roleManagementList",
+        "icon": "ios-paper-outline",
+        "title": "角色管理",
+        "name": "sys/roleManagementList",
+        "component": "sys/roleManagementList"
+      },
+      {
+        "path": "sys/roleAssignmentList",
+        "icon": "ios-paper-outline",
+        "title": "角色人员权限分配",
+        "name": "sys/roleAssignmentList",
+        "component": "sys/roleAssignmentList"
+      },
+      {
+        "path": "sys/postManagementList",
+        "icon": "ios-paper-outline",
+        "title": "岗位管理",
+        "name": "sys/postManagementList",
+        "component": "sys/postManagementList"
+      },
+      {
+        "path": "sys/dictionaryItemMaintenanceList",
+        "icon": "ios-paper-outline",
+        "title": "字典项管理",
+        "name": "sys/dictionaryItemMaintenanceList",
+        "component": "sys/dictionaryItemMaintenanceList"
+      },
+      {
+        "path":"sys/resourcesManagement",
+        "icon": "ios-paper-outline",
+        "title": "资源管理",
+        "name": "sys/resourcesManagement",
+        "component": "sys/resourcesManagement"
+      },
+      {
+        "path":"sys/rolePowerSet",
+        "icon": "ios-paper-outline",
+        "title": "角色权限分配",
+        "name": "sys/rolePowerSet",
+        "component": "sys/rolePowerSet"
+      },
+      {
+        "path":"sys/userRemindTepMageList",
+        "icon": "ios-paper-outline",
+        "title": "用户提醒模板管理",
+        "name": "sys/userRemindTepMageList",
+        "component": "sys/userRemindTepMageList"
+      }
+
+    ]
+  },
+  {
+    "path": "/secondLevel",
+    "icon": "ios-paper",
+    "title": "工作流管理",
+    "name": "secondLevel",
+    "component": "Main",
+    "children": [
+      {
+        "path":"workFlow/toDoList",
+        "icon": "ios-paper-outline",
+        "title": "待办事项",
+        "name": "workFlow/toDoList",
+        "component": "workFlow/toDoList"
+      },
+      {
+        "path":"workFlow/toDoListEx",
+        "icon": "ios-paper-outline",
+        "title": "待办事项-Ex",
+        "name": "workFlow/toDoListEx",
+        "component": "workFlow/toDoListEx"
+      },
+      {
+        "path":"workFlow/haveList",
+        "icon": "ios-paper-outline",
+        "title": "已办事项",
+        "name": "workFlow/haveList",
+        "component": "workFlow/haveList"
+      },
+
+      {
+        "path":"workFlow/formList",
+        "icon": "ios-paper-outline",
+        "title": "表单配置",
+        "name": "workFlow/formList",
+        "component": "workFlow/formList"
+      },
+      {
+        "path":"workFlow/modelList",
+        "icon": "ios-paper-outline",
+        "title": "模型配置",
+        "name": "workFlow/modelList",
+        "component": "workFlow/modelList"
+      },
+      {
+        "path":"workFlow/entrustProcessList",
+        "icon": "ios-paper-outline",
+        "title": "流程委托",
+        "name": "workFlow/entrustProcessList",
+        "component": "workFlow/entrustProcessList"
+      },
+      {
+        "path":"workFlow/processList",
+        "icon": "ios-paper-outline",
+        "title": "流程管理",
+        "name": "workFlow/processList",
+        "component": "workFlow/processList"
+      },
+      {
+        "path":"workFlow/processInsList",
+        "icon": "ios-paper-outline",
+        "title": "流程实例管理",
+        "name": "workFlow/processInsList",
+        "component": "workFlow/processInsList"
+      } ,
+      {
+        "path":"workFlow/formCnfList",
+        "icon": "ios-paper-outline",
+        "title": "工单管理",
+        "name": "workFlow/formCnfList",
+        "component": "workFlow/formCnfList"
+      }
+    ]
+  },
+  {
+    "path": "/eightthLevel",
+    "icon": "ios-paper",
+    "title": "工作流测试",
+    "name": "eightthLevel",
+    "component": "Main",
+    "children": [
+      {
+        "path": "sysorder/orderList",
+        "icon": "ios-paper-outline",
+        "title": "启动测试1",
+        "name": "sysorder/orderList",
+        "component": "sysorder/orderList"
+      },
+      {
+        "path": "sysorder/orderList2",
+        "icon": "ios-paper-outline",
+        "title": "启动测试2",
+        "name": "sysorder/orderList2",
+        "component": "sysorder/orderList"
+      }
+    ]
+  }
+
+
+
+]
